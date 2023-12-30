@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Poppins:wght@300;400;500;600&family=Yellowtail&display=swap');
+*{   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+body{
+    width: 700px;
+    height: 100vh;
+}
+
+.banner{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+}
+
+.background img{
+    height: 650px;
+    width: 1263px;
+}
+.banner .icon{
+    width: 1230px;
+    text-align: end;
+    position: absolute;
+    color: white;
+    opacity: 0.4;
+    font-size: 20px;
+}
+
+.banner .navig{
+    position: absolute;
+    padding-top: 40px;
+    width: 1230px;
+}
+.banner .title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+.banner .title .head h2{
+    color: white;
+}
+
+.banner .title .head h2 i{
+    color: brown;
+    font-size: 60px;
+    font-family: Lavishly Yours;
+    font-weight: 600;
+}
+
+.banner .navig .title .category ul{
+    display: flex;
+    align-items: flex-end;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.banner .navig .title .category ul li{
+    padding-left: 20px;
+    color: white;
+}
+
+.banner .navig .title .category ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.banner .navig .title .category ul li a:hover{
+    color: #FF7A00;
+}
+
+.banner .navig .title .category ul li i:hover{
+    transform: scale(1);
+    transition: all 0.1s;
+}
+
+.banner .navig .title .category ul li button{
+    padding: 3px 9px;
+    background-color: #FF7A00;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+.banner .navig .title .category ul li button:hover{
+    transform: scale(1.1);
+    transition: all 0.22s;
+}
+
+.banner .content{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 25%;
+    color: white;
+    margin-left: 55%;
+}
+
+.banner .content h2{
+    font-weight: 400;
+}
+
+.banner .content h1{
+    font-weight: 600;
+    font-size: 70px;
+    padding-bottom: 5px;
+}
+
+.banner .content h6{
+    font-weight: 400;
+    padding-left: 50px;
+
+}
+
+.banner .content h6 span{
+    padding-left: 10%;
+}
+
+.banner .content button{
+    margin-left: 30%;
+    font-size: 14px;
+    padding: 1px 10px;
+    border-radius: 3px;
+    background-color: #FF7A00;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    padding-bottom: 5px;
+}
+
+.banner .content button:focus{
+    color: aqua;
+}
+.banner .content button i{
+    font-size: 20px;
+
+}
+
+.banner .scroll {
+    position: absolute;
+    display: flex;
+    margin-top: 75%;
+    align-items: center;
+    justify-content: center;
+    width: 1230px;
+    margin-left: 30px;
+}
+
+.banner .scroll i{
+    color: white;
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+.banner .scroll span i{
+    color: #FF7A00;
+}
+
+.banner .shipping{
+    position: absolute;
+    display: flex;
+    
+}
+
+.banner .shipping .bg{
+    margin-top: 38rem;
+    margin-left: 35px;
+    
+}
+
+.banner .shipping .bg img{
+    width: 1200px;
+    border: 1px solid transparent ;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    border-radius: 15px;
+}
+
+.banner .shipping .delivery{
+    position: absolute;
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 5rem;
+    
+}
+
+.banner .shipping .delivery .one{
+    color: white;
+    text-align: center;
+    margin-top: 40rem;
+    font-weight: 300;
+    display: flex;
+    padding-top: 13px;
+}
+
+.banner .shipping .delivery .one i{
+    background-color: transparent;
+    font-size: 50px;
+
+}
+
+.banner .shipping .delivery .one h5{
+    padding-left: 10px;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+
+.banner .shipping .delivery .one h5 span{
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.banner .shipping .delivery .two{
+    color: white;
+    text-align: center;
+    margin-top: 40rem;
+    font-weight: 300;
+    display: flex;
+    padding-top: 13px;
+}
+
+.banner .shipping .delivery .two i{
+    background-color: transparent;
+    font-size: 50px;
+    
+}
+
+.banner .shipping .delivery .two h5{
+    padding-left: 10px;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+
+.banner .shipping .delivery .two h5 span{
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.banner .shipping .delivery .three{
+    color: white;
+    text-align: center;
+    margin-top: 40rem;
+    font-weight: 300;
+    display: flex;
+    padding-top: 13px;
+}
+
+.banner .shipping .delivery .three i{
+    background-color: transparent;
+    font-size: 50px;
+    
+}
+
+.banner .shipping .delivery .three h5{
+    padding-left: 10px;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+
+.banner .shipping .delivery .three h5 span{
+    font-weight: 300;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+@media (max-width:768px) {
+    
+}
