@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Poppins:wght@100;200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&family=Lavishly+Yours&family=Poppins:wght@100;200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Lavishly+Yours&family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Poppins';
+    
+}
+
+.container{
+    position: relative;
+}
+.outer-container{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+
+.outer-container .banner-image img{
+    height: 750px;
+    width: 100vw;
+}
+
+                                        /*CONTACT-ICONS*/
+.outer-container .contact-icons{
+    position: absolute;
+    width: 100%;
+    text-align: end;
+    top: 10px;
+    padding-right: 10px;
+    font-size: 13px;
+
+}
+
+.contact-icons i{
+    color:#ffffffa5;
+    padding: 5px;
+}
+
+.outer-container hr{
+    width: 95%;
+    height: 0.1px;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+}
+
+                                            /*Logo*/
+.outer-container .home-page-top{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    padding-top: 10px;
+}
+.outer-container .home-page-top .top{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+
+}
+.outer-container .home-page-top .top .logo h1{
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 10px
+}
+.outer-container .home-page-top .top .logo h1 i{
+    color: #F00;
+    font-family: Lavishly Yours;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+
+                                                /*Main-Menu*/
+.outer-container .home-page-top .top .main-menu{
+    
+}
+.outer-container .home-page-top .top .main-menu ul{
+    list-style-type: none;
+    display: flex;
+}
+.outer-container .home-page-top .top .main-menu ul li{
+    padding: 20px;
+    text-decoration: none;
+}
+.outer-container .home-page-top .top .main-menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
+.outer-container .home-page-top .top .main-menu ul li a:hover{
+    color: #FF7A00;
+    font-weight: 600;
+    transform: scale(1.5);
+    transition: all 0.42s;
+    border: 1px solid #FF7A00;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+
+                                                /*Icons*/
+
+.outer-container .home-page-top .top .icons ul{
+    display: flex;
+}
+.outer-container .home-page-top .top .icons ul li{
+    padding-right: 20px;
+    list-style-type: none;
+}
+.outer-container .home-page-top .top .icons ul li i{
+    flex-shrink: 0;
+    color: #FFFFFF;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    transition: transform .2s;
+}
+.outer-container .home-page-top .top .icons ul li i:hover{
+    color: #FF7A00;
+    transform: scale(1.5);
+    transition: all 0.42s;
+}
+
+                                                /*Sign-btn*/
+
+.outer-container .home-page-top .icons{
+    display: flex;
+}
+.outer-container .home-page-top .icons .btn-sign{
+    padding: 5px  10px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+    color: #FF7A00;
+    margin-right: 20px;
+}
+.outer-container .icons .btn-sign:hover{
+    color: white;
+    transform: scale(1.1);
+    transition: all 0.42s;
+    background-color: #FF7A00;
+    overflow: hidden;
+}
+
+                                                /*content*/
+
+.outer-container .content{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 250px;
+}
+.outer-container .content h4{
+    width: 40%;
+    color: #FFF;
+    text-align: end;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4.8px;
+}
+.outer-container .content h1{
+    color: #FFF;
+    text-align: center;
+    font-family: Istok Web;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.outer-container .content p{
+    color: #FFF;
+    text-align: center;
+    font-family: Istok Web;
+    font-size: 20px;
+    padding-bottom: 25px;
+}
+.outer-container .content button{
+    position: relative;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 35px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: white;
+    color: #FF7A00;
+    font-weight: 600;
+    font-family: 'Poppins';
+}
+.outer-container .content button i{
+    position: absolute;
+    font-size: 20px;
+    color: #FF7A00;
+}
+
+.outer-container .content .btn-view-more button:hover{
+    color: white;
+    transform: scale(1.1);
+    transition: all 0.42s;
+    background-color: #FF7A00;
+    overflow: hidden;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 35px;
+    font-weight: 600;
+    font-family: 'Poppins';
+}
+
+                                                /*media-Quary*/
+
+@media (max-width:2000px){
+    .outer-container{
+        height: 100%;
+        width: 100%;
+        position: relative;
+        display: flex;
+    }
+
+}
+@media (max-width:1440px){
+    .outer-container{
+        height: 100%;
+        width: 100%;
+        position: relative;
+        display: flex;
+    }
+
+}
+@media (max-width:1300px){
+    .outer-container{
+        height: 100%;
+        width: 100%;
+        position: relative;
+        display: flex;
+    }
+
+}
+@media (max-width:1280px){
+    .outer-container{
+        height: 100%;
+        width: 100%;
+        position: relative;
+        display: flex;
+    }
+
+
+}
+@media (max-width:1024px){
+    .outer-container{
+        height: 100%;
+        width: 100%;
+        position: relative;
+        display: flex;
+    }
+
+
+}
+
+@media (max-width:980px){
+    .outer-container{
+        height: 100%;
+        width: 100%;
+        position: relative;
+        display: flex;
+    }
+
+    .outer-container .home-page-top .top .main-menu{
+        margin-left: 5px;
+        display: none;
+    }
+
+
+    
+}
+@media (max-width:768px){
+    .outer-container{
+        height: 100%;
+        width: 100%;
+        position: relative;
+        display: flex;
+    }
+
+
+}
+@media (max-width:450px){
+    .outer-container{
+        height: 100%;
+        width: 100%;
+        position: relative;
+        display: flex;
+    }
+
+
+
+}
+
+                                                /*shipping-details*/
+
+.container .shipping-details{
+    width: 100vw;
+    position: absolute;
+    padding-left: 4.5%;
+}
+
+.container .shipping-details .icon-shipping img{
+    height: 130px;
+    width: 90%;
+    position: absolute;
+    margin-top: -75px;
+    border-radius: 10px;
+}
