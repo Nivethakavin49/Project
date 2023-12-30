@@ -1,0 +1,15 @@
+table,th,td{
+    
+    border: 1px solid black;
+}
+.mixed{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+.upright{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
+.white{
+    white-space: pre;
+}
