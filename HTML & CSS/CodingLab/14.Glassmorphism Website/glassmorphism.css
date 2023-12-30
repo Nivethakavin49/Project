@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,500;1,800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Poppins;
+}
+
+body{
+    height:100vh;
+    width: 100vw;
+    background-color: #FF9A8B;
+    background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+
+.outer{
+    height: 580px;
+    width: 95%;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow:  0px 20px 50px rgba(0, 0,0, 0.15);
+    backdrop-filter: blur(5px);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 7px;
+    z-index: 1;
+}
+
+.outer .head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 50px;
+}
+
+.outer .head h4{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.outer .head ul li{
+    list-style: none;
+}
+
+.outer .head ul li a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.outer .head ul li a:hover{
+    transform: scale(0.7);
+    transition: all 0.8s;
+    color: white;
+}
+
+.outer .head .butt input{
+    padding: 5px 10px;
+    background-color: #FF9A8B;
+    background-image: linear-gradient(90deg, #f7a99d 0%, #f47992 55%, #d37183 100%);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.outer .content{
+    margin:50px;
+}
+
+.outer .content::selection{
+    color: white;
+}
+
+.outer .content h4{
+    margin-top: 90px;
+    font-size: 20px;
+}
+
+.outer .content h3{
+    margin-top: 2px;
+}
+
+.outer .content p{
+    margin-top: 18px;
+    margin-right: 400px;
+    width: 60%;
+}
+
+.outer .last{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+    position: relative;
+    margin-top: 80px;
+}
+
+.outer span{
+    height: 3px;
+    width: 40px;
+    background-color: black;
+    margin-right: 10px;
+}
+
+.outer p{
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.outer p::selection{
+    color: white;
+}
+
+.outer button{
+    height: 38px;
+    width: 40px;
+    border-radius: 5px;
+    border: 2px solid black;
+    background-color: transparent;
+}
+
+.outer button i{
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+@media (max-width:950px) {
+    body{
+    width: 100%;
+    }
+    .outer .content p{
+        width: 80%;
+    }
+
+}
+@media (max-width:730px) {
+    body{
+        width: 100%;
+    }
+
+    .outer{
+        height: 680px;
+    }
+    
+    .outer .head{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+    }
+
+    .outer .head ul li{
+        margin-top: 8px;
+    }
+
+    .outer .head .butt input{
+        margin-top: 10px;
+    }
+    .outer .content{
+        width: 100%;
+        margin-top: -40px;
+    }
+    
+    .outer .last{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-top: 100px;
+    }
+
+}
+@media (max-width:500px) {
+    .outer .head ul li{
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .outer .last{
+        margin-top: -10px;
+    }
+
+}
+@media (max-width:440px) {
+    .outer{
+        width: 100%;
+        height: 100%;
+    }
+    .outer .head ul li{
+        display: flex;
+    }
+}

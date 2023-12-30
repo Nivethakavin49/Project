@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,500;1,800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Poppins;
+}
+
+.main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('img.png.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main .menu{
+    position: fixed;
+    height: 100vh;
+    width: 20%;
+    background-image: radial-gradient( circle farthest-corner at 7.5% 14.2%,  rgba(254,243,240,1) 0%, rgba(250,236,252,0.2) 90% );
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 25px -5px, rgba(0, 0, 0, 0.2) 0px 10px 10px -5px; ; 
+}
+
+.menu .logo{
+    position: absolute;
+    height: 60px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px, rgba(0, 0, 0, 0.1) 0px 7px 13px -3px, rgba(0, 0, 0, 0.1) 0px -3px 0px inset;
+}
+
+.menu .logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a:hover,
+.logo .x:hover{
+    transition: all 0.2s;
+    transform: scale(1.2);
+}
+
+.logo a i{
+    font-size: 30px;
+    color: black;
+}
+
+.logo h4{
+    font-size: 24px;
+    color: black;
+}
+
+.logo .x a i{
+    font-size: 30px;
+    color: black;
+    margin-top: 7px;
+}
+
+.menu ul{
+    margin-top: 70px;
+    padding-top: 10px;
+    list-style: none;
+    font-size: 20px;
+}
+
+ul li:hover{
+    transition: all 0.2s;
+    transform: scale(1);
+    box-shadow: rgba(50, 50, 93, 0.65) 0px 13px 27px -5px, rgba(0, 0, 0, 0.7) 0px 8px 16px -8px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color:rgb(55, 88, 6);
+}
+
+.menu li a i{
+    padding: 14px;
+}
+
+.menu .media{
+    font-size: 30px;
+    margin-top: 62px;
+    margin-left: 30px;
+}
+
+.media a i:hover{
+    transition: all 0.2s;
+    transform: scale(1.1);
+}
+
+.media a{
+    text-decoration: none;
+    color: white;
+}
+
+.media a i{
+    margin-left: 6px;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    padding-top: 3px;
+}

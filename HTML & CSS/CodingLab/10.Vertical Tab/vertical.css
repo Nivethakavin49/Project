@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,500;1,800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Poppins;
+}
+
+body{
+    background-color: rgb(225, 249, 241);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.outer{
+    max-width: 600px;
+    width: 100%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 8px;
+}
+
+.outer header{
+    margin: 30px 0 0 30px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.outer .overall{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 50px 50px 30px;
+    
+}
+
+.outer .overall nav{
+    width: 900px;
+    
+}
+
+.outer .overall nav label{
+    padding: 8px 15px;
+    
+}
+.outer .overall nav label i{
+    font-size: 20px;
+    padding-top: 18px;
+}
+
+.outer .overall nav label:hover{
+    background-color:rgb(158, 247, 218) ;
+    border-radius: 10px;
+}
+
+.outer .overall section{
+    padding-top: 20px;
+}
+
+.outer .overall section h3{
+    font-size: 20px;
+}
+
+.outer .overall section p{
+    padding-top: 5px;
+    
+}
+
+.outer .overall input{
+    display: none;
+}
+
+section .content-one,
+section .content-two,
+section .content-three,
+section .content-four,
+section .content-five{
+    display: none;
+}
+
+#home:checked ~section .content-one,
+#blog:checked ~section .content-two,
+#help:checked ~section .content-three,
+#code:checked ~section .content-four,
+#about:checked ~section .content-five{
+    display: block;
+}

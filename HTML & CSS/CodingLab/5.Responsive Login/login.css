@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,500;1,800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Poppins;
+}
+
+html,body{
+    height: 100%; 
+    background-color: rgb(60, 168, 134);
+    display: grid;
+    place-items: center;
+}
+
+.outer{
+    position: relative;
+    width: 370px;
+    height: 380px;
+    background-color: rgb(249, 234, 216);
+    border-radius: 5px;
+}
+
+.login{
+    position: absolute;
+    height: 25%;
+    width: 100%;
+    background-color: rgb(15, 141, 99);
+    border-radius: 5px 5px 0px 0px;
+}
+
+.login .header h4{
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.login form {
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+.login form .user{
+    position: relative;
+    height: 45px;
+    width: 90%;
+    margin-bottom: 15px;
+    border-radius: 3px;
+}
+
+.login form .user i{
+    position: absolute;
+    height:100%;
+    width: 12%;
+    background-color:rgb(15, 141, 99);
+    border-radius: 3px 0px 0px 3px;
+    font-size: 25px;
+    padding: 9px 7px 7px 4px ;
+    color: white;
+
+}
+
+.login form .user input{
+    height: 100%;
+    width: 100%;
+    padding-left: 60px;
+}
+
+.login .forgot{
+    margin-top: -10px;
+}
+
+.login .forgot a{
+text-decoration: none;
+    color:rgb(15, 141, 99) ;
+}
+
+
+.login form  .submit input{
+    background-color:rgba(15, 141, 99,0.7) ;
+    border: 1px solid rgba(15, 141, 99,0.7) ;
+    padding: 0;
+    margin-top: 30px;
+    color: white;
+    font-size: 18px;
+}
+
+.login .signup{
+    margin-top: 40px;
+    margin-left: 70px;
+}
+
+.login .signup a{
+    text-decoration: none;
+    color:rgb(15, 141, 99) ;
+}
+
+
+
+

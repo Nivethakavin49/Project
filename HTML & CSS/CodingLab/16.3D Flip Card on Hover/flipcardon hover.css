@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,500;1,800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Poppins;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(218, 243, 234);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.outer{
+    height: 340px;
+    width: 250px;
+    position: relative;
+    transform-style: preserve-3d;
+}
+
+.outer .card{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    border: 3px solid white;
+    background-size: cover;
+    backface-visibility: hidden;
+    transform: rotateY(0deg);
+    transition: 0.7s cubic-bezier(0.4, 0.2, 0.2,1);
+}
+
+.outer:hover > .front_card{
+    transform: rotateY(-180deg);
+}
+
+.outer .front_card img{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.outer .back_card{
+    transform: rotateY(180deg);
+}
+
+.outer:hover > .back_card{
+    transform: rotateY(0deg);
+}
+
+.outer .back_card .pic{
+    height: 150px;
+    width: 100%;
+    background-color:white;
+    text-align: center;
+    
+}
+
+.outer .back_card .pic img{
+    height: 130PX;
+    width: 130PX;
+    border-radius: 50%;
+    margin-top: 15px;
+    border: 4px solid rgb(237, 185, 132);
+}
+
+.outer .back_card .topic{
+    text-align: center;
+    margin: 15px;
+}
+
+.outer .back_card .topic h2{
+    font-weight: 600;
+}
+
+.outer .back_card .topic p{
+    margin: 2px 3px;
+}
+
+.outer .back_card .media{
+    text-align: center;
+    margin: 30px;
+    font-size: 30px;
+}
+
+.outer .back_card .media i{
+    padding: 3px;
+    border-radius: 50%;
+}
+
+.outer .back_card .media i:hover{
+    transform: scale(1.1);
+    transition: all o.6s;
+}

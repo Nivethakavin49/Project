@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,500;1,800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Poppins;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('car.png.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+nav{
+    height: 70px;
+    width: 100%;
+    background-color:black;
+    margin: auto;
+}
+
+nav .menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+
+nav .menu h4{
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 30px;
+}
+nav .menu ul{
+    list-style: none;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+nav .menu ul li a{
+    text-decoration: none;
+    color: white;
+    height: 30px;
+    width: 60px;
+    padding: 8px 20px;
+    
+    
+}
+nav .menu ul li a:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.3);
+    transition: all 0.24s;
+    border-radius: 7px;
+}
+
+.inner{
+    color: white;
+    margin-top: 100px;
+    margin-left: 300px;
+}
+
+.inner .content{
+    padding: 8px 20px;
+}
+
+.content .one{
+    font-size: 55px;
+    font-weight: 500;
+}
+.content .two{
+    font-size: 47px;
+    font-weight: 500;
+    margin-left: 100px;
+}
+
+.content .one::selection,
+.content .two::selection{   
+    background-color: hsla(180, 100%, 97%,0.7);
+    color: black;
+    transition: all 0.5s;
+    transform: scale(1);
+}
+
+.butn{
+    margin-left: 260px;
+}
+
+.butn button{
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    margin: 5px;
+}
+
+.butn button:hover{
+    background-color: white;
+    color: black;
+}
+
+.butn .sub{
+    background-color: white;
+    color: black;
+}
