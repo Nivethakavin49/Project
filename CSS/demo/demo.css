@@ -1,0 +1,22 @@
+html{
+    background-color: bisque;
+    opacity: 0.9;
+}
+body{
+    background-image: url(demo.png);
+    background-repeat: round;
+    background-position: right top;
+    
+}
+a{
+    color: blue;
+}
+
+a:visited{
+    color: blueviolet;
+}
+
+a:hover{
+    color: indianred;
+}
+
